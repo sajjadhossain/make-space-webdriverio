@@ -35,3 +35,7 @@
 
   Spec Files:	 1 passed, 1 total (100% completed) in 00:01:38
   ```
+
+# Video
+
+<video src="makeSpace.checkout.test.mov" width="320" height="200" controls preload></video>
