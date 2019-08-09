@@ -38,4 +38,4 @@
 
 # Video
 
-<video src="makeSpace.checkout.test.mov" width="320" height="200" controls preload></video>
+[Link](makeSpace.checkout.test.mov)
