@@ -13,9 +13,7 @@
 
 ## In Selenium
 * Run `npm run server:install`, to install Selenium
-* Run `npm run server start`
 * Then open a new shell tab and run `npm run test`
-
 * Response should look something like:
   ```js
   ------------------------------------------------------------------
