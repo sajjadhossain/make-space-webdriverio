@@ -85,17 +85,17 @@ describe('Checkout with a Walk In Closet', () => {
     browser.pause(250)
     browser.keys('\uE007')
 
-    // Select August 30 2019
-    august302019.click()
-    browser.pause(250)
-    // Select during the day
-    duringTheDay.click()
-    browser.pause(250)
-    // Continue to shipping
-    continueToShipping.click()
-    browser.pause(250)
+    // // Select August 30 2019
+    // august302019.click()
+    // browser.pause(250)
+    // // Select during the day
+    // duringTheDay.click()
+    // browser.pause(250)
+    // // Continue to shipping
+    // continueToShipping.click()
+    // browser.pause(250)
   })
-  it('Type name and appointment info, then continue to billing.', () => {
+  it.skip('Type name and appointment info, then continue to billing.', () => {
     const name = $(elements.inputs.name)
     const phone = $(elements.inputs.phone)
     const continueToBilling = $(elements.buttons.continueToBilling)
@@ -110,7 +110,7 @@ describe('Checkout with a Walk In Closet', () => {
     // Select “Continue to Billing”
     continueToBilling.click()
   })
-  it('Type card info, then continue to Review.', () => {
+  it.skip('Type card info, then continue to Review.', () => {
     const nameOnCard = $(elements.inputs.nameOnCard)
     const cvcCode = $(elements.inputs.cvcCode)
     const expDate = $(elements.inputs.expDate)
@@ -132,7 +132,7 @@ describe('Checkout with a Walk In Closet', () => {
     // Select “Continue to Review”
     continueToReview.click()
   })
-  it('Creates an account.', () => {
+  it.skip('Creates an account.', () => {
     const accountPhone = $(elements.inputs.accountPhone)
     const accountEmail = $(elements.inputs.accountEmail)
     const notApartOfArmedForces = $(elements.radios.notApartOfArmedForces)
@@ -154,7 +154,7 @@ describe('Checkout with a Walk In Closet', () => {
     confirmAppointment.click()
     browser.pause(250)
   })
-  it('Selects Dresser and Washer/Dryer for Booking Inventory.', () => {
+  it.skip('Selects Dresser and Washer/Dryer for Booking Inventory.', () => {
     const dresser = $(elements.checkboxes.dresser)
     const washerDryer = $(elements.checkboxes.washerDryer)
     const done = $(elements.buttons.done)
@@ -171,7 +171,7 @@ describe('Checkout with a Walk In Closet', () => {
     done.click()
     browser.pause(250)
   })
-  it('Confirms the appointment date and time.', () => {
+  it.skip('Confirms the appointment date and time.', () => {
     const closeModal = $(elements.buttons.closeModal)
     const getAppointmentMonth = $(elements.containers.appointmentMonth).getText()
     const getAppointmentDay = $(elements.containers.appointmentDay).getText()

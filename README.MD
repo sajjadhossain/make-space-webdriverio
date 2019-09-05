@@ -7,10 +7,15 @@
 1. Install NodeJS Go to [downloads](https://nodejs.org/en/download/).
 2. `git clone https://github.com/sajjadhossain/make-space-webdriverio.git`
 3. `cd make-space-webdriverio && npm install`, make sure Dev Dependancies are installed.
+4. Make sure
 
 # Run Tests
 
-* `./node_modules/.bin/wdio makeSpace.checkout.conf.js`
+## In Selenium
+* Run `npm run server:install`, to install Selenium
+* Run `npm run server start`
+* Then open a new shell tab and run `npm run test`
+
 * Response should look something like:
   ```js
   ------------------------------------------------------------------
@@ -31,6 +36,7 @@
   [chrome  mac os x #0-0]    ✓ Confirms the appointment date and time.
   [chrome  mac os x #0-0]
   [chrome  mac os x #0-0] 11 passing (32.7s)
+  ```
 
 
   Spec Files:	 1 passed, 1 total (100% completed) in 00:01:38
@@ -39,3 +45,5 @@
 # Video
 
 [Link](makeSpace.checkout.test.mov)
+
+  ```

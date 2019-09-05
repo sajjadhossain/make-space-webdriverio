@@ -6,8 +6,7 @@ module.exports = {
     cardNumber: '4242424242424242',
     cvc: '111',
     expirationDate: '11/25',
-    month: 'August',
-    day: '30',
+    month: 'September',
     timeSlot: '8 - 11am'
   }
 }

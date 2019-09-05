@@ -1,0 +1,33 @@
+{
+  "name": "make-space-webdriverio",
+  "version": "1.0.0",
+  "description": "[Test](test/specs/checkout.walkInCloset.spec.js)",
+  "main": "makeSpace.checkout.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "server:install": ".//node_modules/.bin/selenium-standalone install",
+    "server:start": ".//node_modules/.bin/selenium-standalone start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajjadhossain/make-space-webdriverio.git"
+  },
+  "author": "sajjad hossain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajjadhossain/make-space-webdriverio/issues"
+  },
+  "homepage": "https://github.com/sajjadhossain/make-space-webdriverio#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@wdio/cli": "^5.12.5",
+    "@wdio/local-runner": "^5.12.5",
+    "@wdio/mocha-framework": "^5.12.1",
+    "@wdio/selenium-standalone-service": "^5.12.1",
+    "@wdio/spec-reporter": "^5.12.1",
+    "@wdio/sync": "^5.12.3"
+  }
+}
